@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		46CBC9FF2D40555B007D7000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46CBC9E52D405559007D7000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46CBC9EC2D405559007D7000;
+			remoteInfo = AnkiMaker1;
+		};
+		46CBCA092D40555B007D7000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46CBC9E52D405559007D7000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46CBC9EC2D405559007D7000;
+			remoteInfo = AnkiMaker1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46CBC9ED2D405559007D7000 /* AnkiMaker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkiMaker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CBC9FE2D40555B007D7000 /* AnkiMaker1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiMaker1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CBCA082D40555B007D7000 /* AnkiMaker1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiMaker1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		46CBCA252D4058C7007D7000 /* Exceptions for "AnkiMaker1" folder in "AnkiMaker1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46CBC9EC2D405559007D7000 /* AnkiMaker1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		46CBC9EF2D405559007D7000 /* AnkiMaker1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46CBCA252D4058C7007D7000 /* Exceptions for "AnkiMaker1" folder in "AnkiMaker1" target */,
+			);
+			path = AnkiMaker1;
+			sourceTree = "<group>";
+		};
+		46CBCA012D40555B007D7000 /* AnkiMaker1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnkiMaker1Tests;
+			sourceTree = "<group>";
+		};
+		46CBCA0B2D40555B007D7000 /* AnkiMaker1UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnkiMaker1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46CBC9EA2D405559007D7000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CBC9FB2D40555B007D7000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CBCA052D40555B007D7000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46CBC9E42D405559007D7000 = {
+			isa = PBXGroup;
+			children = (
+				46CBC9EF2D405559007D7000 /* AnkiMaker1 */,
+				46CBCA012D40555B007D7000 /* AnkiMaker1Tests */,
+				46CBCA0B2D40555B007D7000 /* AnkiMaker1UITests */,
+				46CBC9EE2D405559007D7000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46CBC9EE2D405559007D7000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46CBC9ED2D405559007D7000 /* AnkiMaker1.app */,
+				46CBC9FE2D40555B007D7000 /* AnkiMaker1Tests.xctest */,
+				46CBCA082D40555B007D7000 /* AnkiMaker1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46CBC9EC2D405559007D7000 /* AnkiMaker1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CBCA122D40555B007D7000 /* Build configuration list for PBXNativeTarget "AnkiMaker1" */;
+			buildPhases = (
+				46CBC9E92D405559007D7000 /* Sources */,
+				46CBC9EA2D405559007D7000 /* Frameworks */,
+				46CBC9EB2D405559007D7000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46CBC9EF2D405559007D7000 /* AnkiMaker1 */,
+			);
+			name = AnkiMaker1;
+			packageProductDependencies = (
+			);
+			productName = AnkiMaker1;
+			productReference = 46CBC9ED2D405559007D7000 /* AnkiMaker1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46CBC9FD2D40555B007D7000 /* AnkiMaker1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CBCA152D40555B007D7000 /* Build configuration list for PBXNativeTarget "AnkiMaker1Tests" */;
+			buildPhases = (
+				46CBC9FA2D40555B007D7000 /* Sources */,
+				46CBC9FB2D40555B007D7000 /* Frameworks */,
+				46CBC9FC2D40555B007D7000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46CBCA002D40555B007D7000 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46CBCA012D40555B007D7000 /* AnkiMaker1Tests */,
+			);
+			name = AnkiMaker1Tests;
+			packageProductDependencies = (
+			);
+			productName = AnkiMaker1Tests;
+			productReference = 46CBC9FE2D40555B007D7000 /* AnkiMaker1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46CBCA072D40555B007D7000 /* AnkiMaker1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CBCA182D40555B007D7000 /* Build configuration list for PBXNativeTarget "AnkiMaker1UITests" */;
+			buildPhases = (
+				46CBCA042D40555B007D7000 /* Sources */,
+				46CBCA052D40555B007D7000 /* Frameworks */,
+				46CBCA062D40555B007D7000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46CBCA0A2D40555B007D7000 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46CBCA0B2D40555B007D7000 /* AnkiMaker1UITests */,
+			);
+			name = AnkiMaker1UITests;
+			packageProductDependencies = (
+			);
+			productName = AnkiMaker1UITests;
+			productReference = 46CBCA082D40555B007D7000 /* AnkiMaker1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46CBC9E52D405559007D7000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					46CBC9EC2D405559007D7000 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					46CBC9FD2D40555B007D7000 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46CBC9EC2D405559007D7000;
+					};
+					46CBCA072D40555B007D7000 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46CBC9EC2D405559007D7000;
+					};
+				};
+			};
+			buildConfigurationList = 46CBC9E82D405559007D7000 /* Build configuration list for PBXProject "AnkiMaker1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46CBC9E42D405559007D7000;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 46CBC9EE2D405559007D7000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46CBC9EC2D405559007D7000 /* AnkiMaker1 */,
+				46CBC9FD2D40555B007D7000 /* AnkiMaker1Tests */,
+				46CBCA072D40555B007D7000 /* AnkiMaker1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46CBC9EB2D405559007D7000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CBC9FC2D40555B007D7000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CBCA062D40555B007D7000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46CBC9E92D405559007D7000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CBC9FA2D40555B007D7000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CBCA042D40555B007D7000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46CBCA002D40555B007D7000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46CBC9EC2D405559007D7000 /* AnkiMaker1 */;
+			targetProxy = 46CBC9FF2D40555B007D7000 /* PBXContainerItemProxy */;
+		};
+		46CBCA0A2D40555B007D7000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46CBC9EC2D405559007D7000 /* AnkiMaker1 */;
+			targetProxy = 46CBCA092D40555B007D7000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46CBCA102D40555B007D7000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46CBCA112D40555B007D7000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		46CBCA132D40555B007D7000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnkiMaker1/AnkiMaker1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnkiMaker1/Preview Content\"";
+				DEVELOPMENT_TEAM = BQW7RRX667;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkiMaker1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnkiMaker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnkiMaker1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46CBCA142D40555B007D7000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnkiMaker1/AnkiMaker1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnkiMaker1/Preview Content\"";
+				DEVELOPMENT_TEAM = BQW7RRX667;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkiMaker1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnkiMaker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnkiMaker1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		46CBCA162D40555B007D7000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQW7RRX667;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnkiMaker1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkiMaker1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnkiMaker1";
+			};
+			name = Debug;
+		};
+		46CBCA172D40555B007D7000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQW7RRX667;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnkiMaker1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkiMaker1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnkiMaker1";
+			};
+			name = Release;
+		};
+		46CBCA192D40555B007D7000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQW7RRX667;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnkiMaker1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AnkiMaker1;
+			};
+			name = Debug;
+		};
+		46CBCA1A2D40555B007D7000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQW7RRX667;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnkiMaker1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AnkiMaker1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46CBC9E82D405559007D7000 /* Build configuration list for PBXProject "AnkiMaker1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CBCA102D40555B007D7000 /* Debug */,
+				46CBCA112D40555B007D7000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CBCA122D40555B007D7000 /* Build configuration list for PBXNativeTarget "AnkiMaker1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CBCA132D40555B007D7000 /* Debug */,
+				46CBCA142D40555B007D7000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CBCA152D40555B007D7000 /* Build configuration list for PBXNativeTarget "AnkiMaker1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CBCA162D40555B007D7000 /* Debug */,
+				46CBCA172D40555B007D7000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CBCA182D40555B007D7000 /* Build configuration list for PBXNativeTarget "AnkiMaker1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CBCA192D40555B007D7000 /* Debug */,
+				46CBCA1A2D40555B007D7000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46CBC9E52D405559007D7000 /* Project object */;
+}
